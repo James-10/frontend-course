@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regsiter</title>
+</head>
+<body>
+    <!-- Use POST, not GET -->
+    <div>
+        <form method="post">
+            <input type="reset"><br>
+            <span>First Name</span> <input type="text" required name="firstname"><br>
+            Last Name <input type="text" required name="lastname"><br>
+            Email <input type="email" required name="email"><br>
+            Gender:<br> 
+            <input type="radio" name="gender" value="Male">Male<br>
+            <input type="radio" name="gender" value="Female">Female<br>
+            CV <input type="file" name="CV"><br>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
