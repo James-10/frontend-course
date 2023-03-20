@@ -1,0 +1,37 @@
+
+* {
+    text-align: right;
+    font-size: 100%;
+    font-family: 'Times New Roman';
+    line-height: 20px;
+}
+
+body {
+    /* background-image: url("Screenshot\ 2023-03-20\ 180343.png"); */
+    background-size: cover;
+}
+
+h2, p {
+    color: rgb(43, 123, 241);
+    text-align: center;
+    border: 5px solid rgb(140, 148, 212);
+    cursor: pointer ;
+}
+
+p {
+    color: rgb(43, 123, 241);
+}
+
+li {
+    color: rgb(43, 123, 241);
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    color: rgb(43, 123, 241);
+}
+
+#par {
+    background-color: rgba(48, 48, 233, 0.2);
+}
